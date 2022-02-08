@@ -6,24 +6,10 @@ Metrics, insights, and time tracking automatically generated from your programmi
 
 ## Installation
 
-> **_NOTE:_** Please [build Micro from source](https://github.com/zyedidia/micro#building-from-source) since the changes needed to have this plugin working haven't been released yet.
-
-Using the plugin manager:
+Manually install by cloning this repo as `wakatime` into your `plug` directory:
 
 ```shell
-micro -plugin install wakatime
-```
-
-Or from within micro (must restart micro afterwards for the plugin to be loaded):
-
-```shell
-> plugin install wakatime
-```
-
-Or manually install by cloning this repo as `wakatime` into your `plug` directory:
-
-```shell
-git clone https://github.com/wakatime/micro-wakatime ~/.config/micro/plug/wakatime
+git clone https://github.com/Toby222/micro-wakatime ~/.config/micro/plug/wakatime
 ```
 
 For the first time you install WakaTime in your machine the Micro startup could delay a bit.
