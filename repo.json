@@ -1,8 +1,15 @@
-[{
+[
+  {
     "Name": "wakatime",
     "Description": "Metrics, insights, and time tracking automatically generated from your programming activity",
-    "Website": "https://github.com/wakatime/micro-wakatime",
-    "Tags": ["productivity", "time tracking", "project", "git", "timer"],
+    "Website": "https://github.com/Toby222/micro-wakatime",
+    "Tags": [
+      "productivity",
+      "time tracking",
+      "project",
+      "git",
+      "timer"
+    ],
     "Versions": [
       {
         "Version": "1.0.0",
@@ -31,6 +38,14 @@
         "Require": {
           "micro": ">=2.0.0"
         }
+      },
+      {
+        "Version": "1.1.0",
+        "Url": "https://github.com/wakatime/Toby222/archive/1.1.0.zip",
+        "Require": {
+          "micro": ">=2.0.0"
+        }
       }
     ]
-}]
+  }
+]
